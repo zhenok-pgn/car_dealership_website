@@ -1,0 +1,53 @@
+.nav-link{
+    text-align: center;
+}
+
+.mynav-item{
+  background-color: whitesmoke;
+}
+
+  .news{
+    margin-bottom: 20px;
+    height: 550px;
+  }
+
+  .carousel-img{
+    height: 100%;
+   object-fit: cover;
+    width: 100%;
+  }
+
+  .line{
+    border-bottom: 1px solid lightgray;
+  }
+
+.card{
+  box-shadow: none;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.card-href{
+  text-decoration: none;
+  color: black;
+}
+
+  .card:hover{
+    box-shadow: 0px 0px 15px lightgray;
+  }
+
+  .car-filter{
+    position: relative;
+    top: -50px;
+  }
+
+  .price-title::after{
+      content: ', \20BD';
+    }
+  
+    .price-title, .diapason-title{
+      font-size: 15px;
+      line-height: 18px;
+    }
+
+  /*product*/
+ 
